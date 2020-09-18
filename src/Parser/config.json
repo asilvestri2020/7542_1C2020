@@ -1,0 +1,149 @@
+
+    "fps" : 100,
+    "resolution": {
+        "height": 600,
+        "width": 800
+    },
+    "loggerLevel": 1,
+    "pauseTexture":"../resources/images/stages/pause.png",
+    "startTexture" :"../resources/images/stages/start.png",
+    "continueTexture":"../resources/images/stages/01.png",
+    "enemyTexture":"../resources/images/ships-left/Ship6.png",
+    "shipTexture":"../resources/basics_sprites/plane_0.png",
+
+    "levels" :[
+        {
+            "number" : 1,
+            "bothDirections":true,
+            "duration" : 30000,
+            "numberOfEnemies" : 15,
+            "continueTexture":"../resources/images/stages/02.png",
+            "enemies":[
+                {
+                    "path": "../resources/images/ships-left/Ship1.png",
+                    "type": "Enemigo1"
+                },
+                {
+                    "path": "../resources/images/ships-left/Ship4.png",
+                    "type": "Enemigo2"
+                }
+            ],
+            "background": [
+                {
+                    "path": "../resources/images/backgrounds/bg01/6.png",
+                    "velocity": 0
+                },
+                {
+                    "path": "../resources/images/backgrounds/bg01/5.png",
+                    "velocity": 1
+                },
+                {
+                    "path": "../resources/images/backgrounds/bg01/4.png",
+                    "velocity": 2
+                },
+                {
+                    "path": "../resources/images/backgrounds/bg01/3.png",
+                    "velocity": 3
+                },
+                {
+                    "path": "../resources/images/backgrounds/bg01/2.png",
+                    "velocity": 5
+                },
+                {
+                    "path": "../resources/images/backgrounds/bg01/1.png",
+                    "velocity": 10
+                }
+            ]
+        },
+        {
+            "number" : 2,
+            "duration" : 30000,
+            "numberOfEnemies" : 20,
+            "bothDirections": true,
+            "continueTexture":"../resources/images/stages/03.png",
+            "enemies":[
+                {
+                    "path": "../resources/images/ships-left/Ship2.png",
+                    "type": "Enemigo3"
+                },
+                {
+                    "path": "../resources/images/ships-left/Ship3.png",
+                    "type": "Enemigo4"
+                }
+            ],
+            "background": [
+                {
+                    "path": "../resources/images/backgrounds/bg02/6.png",
+                    "velocity": 0
+                },
+                {
+                    "path": "../resources/images/backgrounds/bg02/5.png",
+                    "velocity": 1
+                },
+                {
+                    "path": "../resources/images/backgrounds/bg02/4.png",
+                    "velocity": 2
+                },
+                {
+                    "path": "../resources/images/backgrounds/bg02/3.png",
+                    "velocity": 3
+                },
+                {
+                    "path": "../resources/images/backgrounds/bg02/2.png",
+                    "velocity": 5
+                },
+                {
+                    "path": "../resources/images/backgrounds/bg02/1.png",
+                    "velocity": 10
+                }
+            ]
+        },
+        {
+            "number" : 3,
+            "duration" : 30000,
+            "bothDirections": true,
+            "numberOfEnemies" : 35,
+            "continueTexture":"../resources/images/stages/end.png",
+            "enemies":[
+                {
+                    "path": "../resources/images/ships-left/Ship5.png",
+                    "type": "Enemigo5"
+                },
+                {
+                    "path": "../resources/images/ships-left/Ship6.png",
+                    "type": "Enemigo6"
+                }
+            ],
+            "background": [
+                {
+                    "path": "../resources/images/backgrounds/bg03/6.png",
+                    "velocity": 0
+                },
+                {
+                    "path": "../resources/images/backgrounds/bg03/5.png",
+                    "velocity": 1
+                },
+                {
+                    "path": "../resources/images/backgrounds/bg03/4.png",
+                    "velocity": 2
+                },
+                {
+                    "path": "../resources/images/backgrounds/bg03/3.png",
+                    "velocity": 3
+                },
+                {
+                    "path": "../resources/images/backgrounds/bg02/2.png",
+                    "velocity": 5
+                },
+                {
+                    "path": "../resources/images/backgrounds/bg03/1.png",
+                    "velocity": 10
+                }
+            ]
+        }
+
+
+    ]
+
+   
+}
